@@ -1,0 +1,9 @@
+name = "scrumplan"
+compatibility_date = "2026-01-21"
+compatibility_flags = ["nodejs_compat"]
+
+[build]
+command = "npx @cloudflare/next-on-pages"
+
+[site]
+bucket = ".vercel/output/static"
