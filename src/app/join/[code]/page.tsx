@@ -77,7 +77,7 @@ export default function JoinPage() {
                 <h2 className="text-xl font-semibold text-slate-900">Join Planning Session</h2>
                 {roomName && (
                   <p className="text-slate-600 mt-1">
-                    You're joining <strong>{roomName}</strong>
+                    You&apos;re joining <strong>{roomName}</strong>
                   </p>
                 )}
                 <p className="text-sm text-slate-500 mt-2">

@@ -2,6 +2,7 @@
 
 import React from "react";
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 
 interface AvatarProps extends React.HTMLAttributes<HTMLDivElement> {
   name: string;
@@ -36,7 +37,7 @@ const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>(
         {...props}
       >
         {src ? (
-          <img src={src} alt={name} className="h-full w-full rounded-full object-cover" />
+          <Image src={src} alt={name} className="h-full w-full rounded-full object-cover" />
         ) : (
           initials
         )}
