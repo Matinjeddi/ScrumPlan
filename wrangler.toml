@@ -2,6 +2,3 @@ name = "scrumplan"
 pages_build_output_dir = ".vercel/output/static"
 compatibility_date = "2026-01-21"
 compatibility_flags = ["nodejs_compat"]
-
-[build]
-command = "npx @cloudflare/next-on-pages"
